@@ -1,0 +1,24 @@
+server:
+port: 0
+
+
+bfhl:
+name: "K SINDHU"
+regNo: "22BCE8991" # used to decide odd/even
+email: "sindhu.22bce8991@vitapstudent.ac.in"
+
+
+# Endpoints from the problem statement
+generateUrl: "https://bfhldevapigw.healthrx.co.in/hiring/generateWebhook/JAVA"
+
+
+# The API returns a webhook URL; we'll post to THAT. If not present, we'll fallback here.
+fallbackSubmitUrl: "https://bfhldevapigw.healthrx.co.in/hiring/testWebhook/JAVA"
+
+
+# Header formatting for Authorization
+authPrefix: "" # set to "Bearer " if required
+
+
+# Where to persist the final SQL locally (to satisfy "stores the result")
+outFile: "target/finalQuery.txt"

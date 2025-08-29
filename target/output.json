@@ -1,0 +1,19 @@
+{
+    "is_success": true,
+    "user_id": "john_doe_17091999",
+    "email": "john.doe@abc.com",
+    "roll_number": "ABCD123",
+    "numbers": [
+        "1",
+        "3",
+        "9"
+    ],
+    "alphabets": [
+        "A",
+        "b",
+        "Z"
+    ],
+    "highest_alphabet": [
+        "Z"
+    ]
+}
